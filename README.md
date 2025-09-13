@@ -3,17 +3,19 @@
 An AI-powered chatbot built with Assistant-UI
 , integrated with Google AI SDK, and deployed on Vercel.
 
-🌐 Live Demo: Chatbot on Vercel
+🌐 Live Demo: Deployed Chatbot
 
 🚀 Features
 
-Simple UI powered by Assistant-UI
+Conversational AI chatbot
 
-Google AI SDK integration
+Powered by Google Gemini API
 
-Easy to deploy on Vercel
+Built with Assistant-UI and React SDK
 
-Works out-of-the-box with minimal setup
+Secure API key management via environment variables
+
+One-click deployment on Vercel
 
 📂 Project Setup
 1. Create Project Folder
@@ -24,134 +26,52 @@ cd chatbot
 code .
 
 3. Initialize Chatbot Project
-
-Run this command in terminal:
-
 npx assistant-ui@latest create
 
 4. Install Dependencies
 npm install ai @assistant-ui/react-ai-sdk @ai-sdk/google
 
-5. Get API Key
+🔑 Environment Variables
 
-▶️ Run Locally
+Create a .env.local file in the project root.
 
-Start the development server:
-
-npm run dev
-
-
-Open browser at http://localhost:3000
-
-📦 Deployment
-
-This chatbot is deployed on Vercel.
-You can deploy your own by connecting the repo to Vercel
-.
-
-Live project: 👉 https://chat-bot-eight-sigma.vercel.app/
-
-🛡️ Important Notes
-
-Never commit your real API key in public repos. Use .env files instead.
-
-Replace demo API key with your own for production.
-
-📝 License
-
-This project is for learning & educational purposes only.
-
-👉 Ye README tumhare GitHub repo ke README.md file me paste kar do.
-
-Chahoge mai tumhare liye ek .env setup guide bhi dal du is README me, taaki API key safe rahe?
-
-You said:
-hnn
-ChatGPT said:
-
-Perfect 🔥 Mai ab tumhare README me .env setup guide bhi add kar deta hoon taaki API key safe rahe aur professional lage.
-
-🤖 AI Chatbot
-
-An AI-powered chatbot built with Assistant-UI
-, integrated with Google AI SDK, and deployed on Vercel.
-
-🌐 Live Demo: Chatbot on Vercel
-
-🚀 Features
-
-Simple UI powered by Assistant-UI
-
-Google AI SDK integration
-
-Secure API key management with .env
-
-Easy to deploy on Vercel
-
-📂 Project Setup
-1. Create Project Folder
-mkdir chatbot
-cd chatbot
-
-2. Open in VS Code
-code .
-
-3. Initialize Chatbot Project
-
-Run this command in terminal:
-
-npx assistant-ui@latest create
-
-4. Install Dependencies
-npm install ai @assistant-ui/react-ai-sdk @ai-sdk/google
-
-🔑 API Key Setup (Environment Variables)
-
-Visit Google Gemini API
- and generate your API key.
-
-In your project root, create a file named .env.local
-
-Add your API key inside it like this:
+Add your Gemini API key:
 
 GOOGLE_API_KEY=your_api_key_here
 
 
-⚠️ Important: Never push .env.local file to GitHub. Add it to .gitignore (already default in Next.js projects).
+Make sure .env.local is in your .gitignore file (to keep it private).
 
 ▶️ Run Locally
-
-Start the development server:
-
 npm run dev
 
 
-Now open browser at http://localhost:3000
+Open http://localhost:3000
+ in your browser.
 
 📦 Deployment
 
-This chatbot is deployed on Vercel.
-For your own deployment:
+Push your code to GitHub.
 
-Push code to GitHub.
-
-Connect repo to Vercel
+Connect the repo to Vercel
 .
 
-In Vercel dashboard → Project Settings → Environment Variables, add your API key:
+In Vercel → Project Settings → Environment Variables, add:
 
 Key: GOOGLE_API_KEY
 Value: your_api_key_here
 
 
-Live project: 👉 https://chat-bot-eight-sigma.vercel.app/
+Deploy 🎉
 
-🛡️ Important Notes
+🛡️ Notes
 
-Never expose your API key directly in code.
+Never share your API keys publicly.
 
-Use .env for local development and Vercel Environment Variables for deployment.
+Use .env.local for local development.
+
+Use Vercel Environment Variables for production.
 
 📝 License
 
-This project is for learning & educational purposes only.
+This project is for educational and learning purposes only.
