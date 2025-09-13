@@ -34,14 +34,6 @@ npm install ai @assistant-ui/react-ai-sdk @ai-sdk/google
 
 5. Get API Key
 
-Visit Google Gemini API
- and generate your API key.
-(⚠️ Don’t expose API key publicly in real projects.)
-
-For this demo, project used:
-
-AIzaSyDkCzB9OyjeMWpwEI21LqTKYRG3HgAwneU
-
 ▶️ Run Locally
 
 Start the development server:
